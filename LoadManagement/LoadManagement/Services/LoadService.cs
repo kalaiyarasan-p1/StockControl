@@ -61,7 +61,7 @@ namespace LoadManagement.Services
         }
 
         private static List<Stock> GetStocks() => new();
-        private static List<Load> GetLoads() => new();
+        public static List<Load> GetLoads() => new();
         public static List<Warehouse> GetWarehouses() => new();
     }
 }
